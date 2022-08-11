@@ -1,0 +1,54 @@
+.calculadora{
+	display: block;
+	width: 350px;
+	height: 515px;
+	background: #0E263C;
+	margin: auto;
+	padding: 20px;
+	border-radius: 20px;
+
+}
+.pantalla{
+	font-size: 36px;
+	text-align: right;
+	width: 300px;
+	height: 55px;
+	background: #193249;
+	color: #FFFFFF;
+	border-radius: 20px;
+	padding-right: 7px;
+}
+.actuadores{
+	width: 50px;
+	height: 30px;
+	margin: 10px;
+	color: #4DF24D;
+	background:#193249;
+	border: none;
+	border-radius: 5px;
+}
+.operadores{
+		color: #4DF24D;
+}
+.actuadores:active{
+	color: #F73131;
+	background: #43545B;
+}
+.boton{
+	font-size: 20px;
+	color: #FFFFFF;
+	display: block;
+	width: 70px;
+	height: 70px;
+	margin: auto;
+	background: #43545B;
+	border-radius: 100%;
+	border: none;
+}
+.boton:active{
+		background: #7C8C93;
+}
+
+#reset:active{
+	color: #FB2323;
+}
