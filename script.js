@@ -70,25 +70,25 @@ igual.addEventListener('click',()=>{
 		 res = almacenado / almacenado2;
 		 numeros = res;
 		 pantalla.innerHTML = numeros;
-		 numeros = 0;
+
 		          break;
 		 	case "multiplicar":
 		 res = almacenado * almacenado2;
 		 numeros = res;
 		 pantalla.innerHTML = numeros;
-		 numeros = 0;
+
 		          break;
 		    case "restar":
 		 res = almacenado - almacenado2;
 		 numeros = res;
 		 pantalla.innerHTML = numeros;
-		 numeros = 0;
+
 		          break;
 		     case "sumar":
 		 res = parseInt(almacenado) + parseInt(almacenado2);
 		 numeros = res;
 		 pantalla.innerHTML = numeros;
-		 numeros = 0;
+	
 		          break;
 		 }
 	}
