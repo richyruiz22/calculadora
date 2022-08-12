@@ -1,4 +1,7 @@
+
+
 .calculadora{
+	position: relative;
 	display: block;
 	width: 350px;
 	height: 515px;
@@ -6,7 +9,6 @@
 	margin: auto;
 	padding: 20px;
 	border-radius: 20px;
-
 }
 .pantalla{
 	font-size: 36px;
@@ -51,4 +53,38 @@
 
 #reset:active{
 	color: #FB2323;
+}
+
+.timer1{
+	color: #FFFFFF;
+	position: absolute;
+	display: block;
+	top:30px ;
+	left: 485px;
+	width: 300px;
+	height: 200px;
+	background:linear-gradient(180deg,#0E263C,#2D465C);
+	border-radius: 18px 0 0 18px;
+}
+.convert1{
+	color: #FFFFFF;
+	position: absolute;
+	display: block;
+	top:230px ;
+	left: 486px;
+	width: 300px;
+	height: 280px;
+	background:linear-gradient(180deg,#0E263C,#2D465C);
+	border-radius: 18px 0 0 18px;
+}
+.cien1{
+	color: #FFFFFF;
+	position: absolute;
+	display: block;
+	top:30px ;
+	left: 1130px;
+	width: 300px;
+	height: 480px;
+	background:linear-gradient(180deg,#0E263C,#2D465C);
+	border-radius: 0 18px 18px 0;
 }
